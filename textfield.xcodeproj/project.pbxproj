@@ -13,6 +13,11 @@
 		3584FA0C2661D54C00146AC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3584FA0A2661D54C00146AC3 /* Main.storyboard */; };
 		3584FA0E2661D54D00146AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3584FA0D2661D54D00146AC3 /* Assets.xcassets */; };
 		3584FA112661D54D00146AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3584FA0F2661D54D00146AC3 /* LaunchScreen.storyboard */; };
+		3584FA1B2661EB8B00146AC3 /* UITextFieldViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584FA1A2661EB8B00146AC3 /* UITextFieldViewRepresentable.swift */; };
+		3584FA1D2661ECAD00146AC3 /* MultipleTextFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584FA1C2661ECAD00146AC3 /* MultipleTextFieldsView.swift */; };
+		3584FA1F2661FF2600146AC3 /* MultipleTextFieldsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584FA1E2661FF2600146AC3 /* MultipleTextFieldsViewModel.swift */; };
+		358740642662662600C6A298 /* UnderLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358740632662662600C6A298 /* UnderLineTextField.swift */; };
+		3587406A26626D2200C6A298 /* COMIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3587406926626D2200C6A298 /* COMIC.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		3584FA0D2661D54D00146AC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3584FA102661D54D00146AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3584FA122661D54D00146AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3584FA1A2661EB8B00146AC3 /* UITextFieldViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldViewRepresentable.swift; sourceTree = "<group>"; };
+		3584FA1C2661ECAD00146AC3 /* MultipleTextFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTextFieldsView.swift; sourceTree = "<group>"; };
+		3584FA1E2661FF2600146AC3 /* MultipleTextFieldsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTextFieldsViewModel.swift; sourceTree = "<group>"; };
+		358740632662662600C6A298 /* UnderLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderLineTextField.swift; sourceTree = "<group>"; };
+		3587406926626D2200C6A298 /* COMIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = COMIC.TTF; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/COMIC.TTF"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		3584FA032661D54C00146AC3 /* textfield */ = {
 			isa = PBXGroup;
 			children = (
+				3587406B26626D3300C6A298 /* underline text field */,
+				3587406526626CCA00C6A298 /* fonts */,
 				3584FA042661D54C00146AC3 /* AppDelegate.swift */,
 				3584FA062661D54C00146AC3 /* SceneDelegate.swift */,
 				3584FA082661D54C00146AC3 /* ViewController.swift */,
@@ -65,6 +77,25 @@
 				3584FA122661D54D00146AC3 /* Info.plist */,
 			);
 			path = textfield;
+			sourceTree = "<group>";
+		};
+		3587406526626CCA00C6A298 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3587406926626D2200C6A298 /* COMIC.TTF */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		3587406B26626D3300C6A298 /* underline text field */ = {
+			isa = PBXGroup;
+			children = (
+				3584FA1A2661EB8B00146AC3 /* UITextFieldViewRepresentable.swift */,
+				3584FA1C2661ECAD00146AC3 /* MultipleTextFieldsView.swift */,
+				3584FA1E2661FF2600146AC3 /* MultipleTextFieldsViewModel.swift */,
+				358740632662662600C6A298 /* UnderLineTextField.swift */,
+			);
+			path = "underline text field";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3587406A26626D2200C6A298 /* COMIC.TTF in Resources */,
 				3584FA112661D54D00146AC3 /* LaunchScreen.storyboard in Resources */,
 				3584FA0E2661D54D00146AC3 /* Assets.xcassets in Resources */,
 				3584FA0C2661D54C00146AC3 /* Main.storyboard in Resources */,
@@ -138,8 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3584FA092661D54C00146AC3 /* ViewController.swift in Sources */,
+				3584FA1D2661ECAD00146AC3 /* MultipleTextFieldsView.swift in Sources */,
 				3584FA052661D54C00146AC3 /* AppDelegate.swift in Sources */,
 				3584FA072661D54C00146AC3 /* SceneDelegate.swift in Sources */,
+				358740642662662600C6A298 /* UnderLineTextField.swift in Sources */,
+				3584FA1F2661FF2600146AC3 /* MultipleTextFieldsViewModel.swift in Sources */,
+				3584FA1B2661EB8B00146AC3 /* UITextFieldViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,14 +6,13 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
-
+import SwiftUI
+class ViewController: UINavigationController {
+  
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let vc = UIHostingController(rootView: MultipleTextFieldsView())
+        self.pushViewController(vc, animated: true)
     }
 
 
 }
-
